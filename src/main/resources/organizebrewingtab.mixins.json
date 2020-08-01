@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.mmkiir.modding.organizebrewingtab",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "MixinCreativeInventoryScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

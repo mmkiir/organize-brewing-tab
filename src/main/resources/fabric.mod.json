@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "organizebrewingtab",
+  "version": "${version}",
+
+  "name": "Brewing Ingredients On Top",
+  "description": "This mod moves the ingredients in the brewing tab before the potions.",
+  "authors": [
+    "mmkiir"
+  ],
+  "contact": {
+    "homepage": "https://github.com/mmkiir/organize-brewing-tab",
+    "sources": "https://github.com/mmkiir/organize-brewing-tab"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/organizebrewingtab/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.mmkiir.modding.organizebrewingtab"
+    ]
+  },
+  "mixins": [
+    "organizebrewingtab.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
