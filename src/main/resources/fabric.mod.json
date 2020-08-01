@@ -19,7 +19,7 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.mmkiir.modding.organizebrewingtab"
+      "com.mmkiir.modding.organizebrewingtab.OrganizeBrewingTab"
     ]
   },
   "mixins": [
