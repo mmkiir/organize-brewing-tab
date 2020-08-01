@@ -3,7 +3,7 @@
   "id": "organizebrewingtab",
   "version": "${version}",
 
-  "name": "Brewing Ingredients On Top",
+  "name": "Organize Brewing Tab",
   "description": "This mod moves the ingredients in the brewing tab before the potions.",
   "authors": [
     "mmkiir"
